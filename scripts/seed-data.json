@@ -1,0 +1,142 @@
+[
+  {
+    "item_id": "app-001",
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce with parmesan cheese, croutons, and our signature Caesar dressing",
+    "category": "appetizers",
+    "price": 8.99
+  },
+  {
+    "item_id": "app-002",
+    "name": "Buffalo Wings",
+    "description": "Spicy chicken wings served with celery and blue cheese dip",
+    "category": "appetizers",
+    "price": 12.99
+  },
+  {
+    "item_id": "app-003",
+    "name": "Mozzarella Sticks",
+    "description": "Crispy breaded mozzarella sticks served with marinara sauce",
+    "category": "appetizers",
+    "price": 7.99
+  },
+  {
+    "item_id": "pizza-001",
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato sauce, fresh mozzarella, and basil",
+    "category": "pizza",
+    "price": 16.99
+  },
+  {
+    "item_id": "pizza-002",
+    "name": "Pepperoni Pizza",
+    "description": "Traditional pizza topped with pepperoni and mozzarella cheese",
+    "category": "pizza",
+    "price": 18.99
+  },
+  {
+    "item_id": "pizza-003",
+    "name": "BBQ Chicken Pizza",
+    "description": "Grilled chicken, red onions, and BBQ sauce on our signature crust",
+    "category": "pizza",
+    "price": 20.99
+  },
+  {
+    "item_id": "pizza-004",
+    "name": "Veggie Supreme Pizza",
+    "description": "Loaded with bell peppers, mushrooms, onions, olives, and tomatoes",
+    "category": "pizza",
+    "price": 19.99
+  },
+  {
+    "item_id": "pasta-001",
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with eggs, cheese, pancetta, and black pepper",
+    "category": "pasta",
+    "price": 15.99
+  },
+  {
+    "item_id": "pasta-002",
+    "name": "Fettuccine Alfredo",
+    "description": "Creamy fettuccine pasta with parmesan cheese and butter",
+    "category": "pasta",
+    "price": 14.99
+  },
+  {
+    "item_id": "pasta-003",
+    "name": "Penne Arrabbiata",
+    "description": "Spicy penne pasta with tomatoes, garlic, and red chili peppers",
+    "category": "pasta",
+    "price": 13.99
+  },
+  {
+    "item_id": "main-001",
+    "name": "Grilled Salmon",
+    "description": "Fresh Atlantic salmon grilled to perfection with lemon herb butter",
+    "category": "mains",
+    "price": 22.99
+  },
+  {
+    "item_id": "main-002",
+    "name": "Ribeye Steak",
+    "description": "12oz ribeye steak cooked to your preference with garlic mashed potatoes",
+    "category": "mains",
+    "price": 28.99
+  },
+  {
+    "item_id": "main-003",
+    "name": "Chicken Parmesan",
+    "description": "Breaded chicken breast with marinara sauce and melted mozzarella",
+    "category": "mains",
+    "price": 19.99
+  },
+  {
+    "item_id": "main-004",
+    "name": "Fish and Chips",
+    "description": "Beer-battered cod with crispy fries and tartar sauce",
+    "category": "mains",
+    "price": 16.99
+  },
+  {
+    "item_id": "dessert-001",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with a molten center, served with vanilla ice cream",
+    "category": "desserts",
+    "price": 7.99
+  },
+  {
+    "item_id": "dessert-002",
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone",
+    "category": "desserts",
+    "price": 6.99
+  },
+  {
+    "item_id": "dessert-003",
+    "name": "New York Cheesecake",
+    "description": "Rich and creamy cheesecake with graham cracker crust",
+    "category": "desserts",
+    "price": 5.99
+  },
+  {
+    "item_id": "beverage-001",
+    "name": "Fresh Lemonade",
+    "description": "Freshly squeezed lemonade with a hint of mint",
+    "category": "beverages",
+    "price": 3.99
+  },
+  {
+    "item_id": "beverage-002",
+    "name": "Iced Tea",
+    "description": "Refreshing iced tea with lemon",
+    "category": "beverages",
+    "price": 2.99
+  },
+  {
+    "item_id": "beverage-003",
+    "name": "Craft Beer",
+    "description": "Selection of local craft beers (ask server for current selection)",
+    "category": "beverages",
+    "price": 5.99
+  }
+]
