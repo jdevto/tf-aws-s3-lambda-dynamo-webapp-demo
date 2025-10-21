@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering - Order Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍕 Restaurant Ordering</h1>
+            <p>Order delicious food online</p>
+        </header>
+
+        <main>
+            <!-- Menu Section -->
+            <section id="menu-section" class="menu-section">
+                <h2>Our Menu</h2>
+                <div id="menu-loading" class="loading">Loading menu...</div>
+                <div id="menu-grid" class="menu-grid"></div>
+            </section>
+
+            <!-- Order Form Section -->
+            <section id="order-section" class="order-section">
+                <h2>Place Your Order</h2>
+                <form id="order-form">
+                    <div class="form-group">
+                        <label for="customer-name">Your Name:</label>
+                        <input type="text" id="customer-name" name="customer_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Select Items:</label>
+                        <div id="menu-items-selection"></div>
+                    </div>
+
+                    <div class="order-summary">
+                        <div class="cart-header">
+                            <h3>Your Cart</h3>
+                            <button type="button" class="clear-cart-btn" onclick="clearCart()" title="Clear cart">Clear Cart</button>
+                        </div>
+                        <div id="order-items"></div>
+                        <div class="total">
+                            <strong>Total: $<span id="order-total">0.00</span></strong>
+                        </div>
+                    </div>
+
+                    <div class="order-actions">
+                        <button type="submit" id="submit-order" class="submit-btn" disabled>
+                            Add items to place order
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Order Confirmation -->
+            <section id="confirmation-section" class="confirmation-section" style="display: none;">
+                <h2>Order Confirmed!</h2>
+                <div class="confirmation-details">
+                    <p><strong>Order ID:</strong> <span id="order-id"></span></p>
+                    <p><strong>Customer:</strong> <span id="customer-name-display"></span></p>
+                    <p><strong>Total:</strong> $<span id="order-total-display"></span></p>
+                    <p><strong>Status:</strong> <span id="order-status"></span></p>
+                </div>
+                <div class="confirmation-actions">
+                    <button onclick="location.reload()" class="btn">Place Another Order</button>
+                    <button onclick="viewOrder()" class="btn secondary">View Order Details</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Restaurant Ordering. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
